@@ -83,7 +83,28 @@ h5 {
   padding: 15px 0;
 }
 
-/* Images 
+/* Drop caps 
+https://css-tricks.com/snippets/css/drop-caps/
+-----------------------*/
+
+.firstcharacter {
+    color: chocolate;
+    float: left;
+    font-family: 'PT Serif', serif;
+    font-size: 75px;
+    line-height: 50px;
+    padding-top: 4px;
+    padding-right 35px;
+    padding-left:0;
+    
+}
+
+
+
+
+
+/* Images https://css-tricks.com/snippets/css/drop-caps/
+
 https://www.tutorialrepublic.com/faq/how-to-auto-resize-an-image-to-fit-into-a-div-container-using-css.php
 -----------------------*/
 img{
